@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Data files
+data/raw/*
+data/interim/*
+data/processed/*
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Reports and BI exports
+reports/exports/*
+!reports/exports/*.png
+!reports/exports/*.pdf
+reports/powerbi/*.pbix
+reports/powerbi/*.pbit
+dashboard/*.pbix
+dashboard/*.pbit
+!reports/exports/.gitkeep
+!reports/powerbi/.gitkeep
+!dashboard/.gitkeep
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
